@@ -1,0 +1,244 @@
+body{
+  font-family: 'Montserrat', serif;
+  position: relative;
+  background-color: #f8f4e1;
+
+
+}
+
+h1{
+  font-family: 'Noto Serif JP', serif;
+  color: black;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+}
+
+hr{
+
+  border: 0;
+  height: 1px;
+  width: 10%;
+  position: relative;
+  margin: 30px auto;
+
+}
+
+#home {
+  overflow-y: scroll;
+  background-image:url(../img/bg-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#about {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#menu {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+
+
+#main-navbar {
+  background: none;
+  padding:0 5%;
+  text-align: center;
+}
+/* #e7e7de */
+.navbar-brand {
+  height: 3rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.homepage {
+  position: relative;
+  text-align: center;
+  padding: 7% 15% 20% 15%;
+}
+
+.home-btn {
+  margin-top: 5px;
+  color: #705737;
+  border-color: #705737;
+}
+
+.home-btn:hover{
+  color: white;
+  background-color: #705737;
+  border-color: #705737;
+}
+
+.heading-box {
+  background-color: transparent;
+  width: 80%;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+}
+
+.heading {
+  width: 15rem;
+  margin-bottom: 30px;
+}
+
+.heading-box p{
+  font-family: "Noto Serif JP", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #705737;
+
+
+}
+
+.aboutpage {
+  padding: 6% 20% 8% 20%;
+  text-align: center;
+
+}
+
+.aboutpage h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.qualitypage {
+  padding: 5% 15% 5% 0;
+  text-align: center;
+  background-color: #e7e7de;
+  border-style: solid;
+  border-color: transparent;
+  border-top-left-radius: 120px;
+  border-bottom-left-radius: 120px;
+  position: relative;
+  left: 2%;
+  overflow-x: hidden;
+  width: 96%;
+}
+
+.qua-box {
+  padding-left: 15%;
+}
+
+.fa-check,.fa-receipt {
+  color: #5eaaa8;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.menupage {
+  text-align: center;
+  padding: 5% 15% 8% 15%;
+}
+
+.menu-heading {
+  padding: 0 10%;
+}
+
+.menu-wrapper {
+  padding-top: 5%;
+}
+
+.menu-box {
+  width: 75%;
+  background-color: white;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 10%;
+  box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.menu-box:hover {
+  background-color: #f7f7f7;
+}
+
+.menu-img {
+  padding-top: 15%;
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 80%;
+}
+
+.testipage {
+  padding: 5% 10% 5% 15%;
+  text-align: left;
+  background-color: #e7e7de;
+  border-style: solid;
+  border-color: transparent;
+  border-top-right-radius: 120px;
+  border-bottom-right-radius: 120px;
+  position: relative;
+  right: 2%;
+  overflow-x: hidden;
+  width: 96%;
+}
+
+.testi-box {
+  padding-left: 10%;
+}
+
+.testi-text {
+  padding-right: 10%;
+  margin-bottom: 20px;
+}
+
+.ctapage {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #705737;
+  padding:3% 15% 1%;
+  text-align: center;
+}
+
+#footer p{
+  margin-bottom: 0;
+  color: white;
+  font-size: 1rem;
+
+}
+
+
+.footer-btn {
+  border-style: none;
+}
+
+
+.social-icon {
+  margin-bottom:20px;
+}
+
+.social-icon i{
+  margin: 0 10px;
+  color: white;
+  transition: 0.4s;
+}
+
+.wa-logo:hover {
+  color: green;
+}
+
+.ig-logo:hover {
+  color: purple;
+}
