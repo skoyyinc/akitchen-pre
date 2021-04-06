@@ -1,31 +1,30 @@
-@media screen and (max-width:1080px) {
-
-  p{
+@media screen and (max-width:1080px) and (min-width:700px) {
+  p {
     font-size: .8rem;
   }
 
-  .homepage p{
+  .homepage p {
     font-size: .8rem;
   }
 
   .aboutpage h1 {
     font-size: 1.2rem;
-    text-align : center;
+    text-align: center;
   }
 
   .heading {
     width: 80%;
   }
 
-  .aboutpage p{
+  .aboutpage p {
     text-align: justify;
   }
 
-  .qua-box{
+  .qua-box {
     margin: 50px 0;
   }
 
-  .qualitypage{
+  .qualitypage {
     position: static;
     border-radius: 0;
     padding: 5% 15%;
@@ -35,7 +34,7 @@
     padding: 0;
   }
 
-  .testipage{
+  .testipage {
     position: static;
     border-radius: 0;
     padding: 5% 10%;
@@ -46,31 +45,119 @@
     text-align: center;
   }
 
-  .testi-text{
-    padding:0 10%;
+  .testi-text {
+    padding: 0 10%;
     font-size: 1rem;
     text-align: center;
   }
 
   .footer-btn {
-    margin:0;
+    margin: 0;
     padding-right: 10px;
   }
 
-  #footer p{
-    margin:0;
+  #footer p {
+    margin: 0;
   }
 
-  #footer{
-    padding : 5% 5%;
+  #footer {
+    padding: 5% 5%;
   }
 
   .list-inline {
-    margin:0;
+    margin: 0;
   }
 
   .social-icon {
     margin: 0;
+  }
+}
+
+@media screen and (max-width:700px) {
+
+  p {
+    font-size: .8rem;
+  }
+
+  .homepage p {
+    font-size: .8rem;
+  }
+
+  .aboutpage h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .heading {
+    width: 80%;
+  }
+
+  .aboutpage p {
+    text-align: justify;
+  }
+
+  .qua-box {
+    margin: 50px 0;
+  }
+
+  .qualitypage {
+    position: static;
+    border-radius: 0;
+    padding: 5% 15%;
+  }
+
+  .qua-box {
+    padding: 0;
+  }
+
+  .testipage {
+    position: static;
+    border-radius: 0;
+    padding: 5% 10%;
+  }
+
+  .testi-box {
+    padding: 0;
+    text-align: center;
+  }
+
+  .testi-text {
+    padding: 0 10%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .footer-btn {
+    margin: 0;
+    padding-right: 10px;
+    font-size: 0.7rem;
+  }
+
+
+  #footer p {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+
+  #footer {
+    padding: 5% 5%;
+  }
+
+  .list-inline {
+    margin: 0;
+  }
+
+  .social-icon {
+    margin: 0;
+  }
+
+
+  .ctapage h1{
+    font-size:1.5rem;
+  }
+
+  .ctapage h2{
+    font-size: 1rem;
   }
 
 }
