@@ -29,198 +29,195 @@
 <body>
 
 
+  <section id="home">
+    <nav id="main-navbar" class="navbar navbar-expand-md navbar-light mt-2">
+      <button type="button" class="navbar-toggler ms-auto me-auto" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation">
+        <span><i class="fas fa-angle-double-down fa-2x"></i></span>
+      </button>
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse ms-auto me-auto" id="navbarToggler">
+          <ul class="navbar-nav ms-auto me-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#menu" class="nav-link">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a href="#cta" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-  <div data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="0" tabindex="0">
-    <section id="home">
-      <nav id="main-navbar" class="navbar navbar-expand-md navbar-light mt-2">
-        <button type="button" class="navbar-toggler ms-auto me-auto" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation">
-          <span><i class="fas fa-angle-double-down fa-2x"></i></span>
+
+
+      </div>
+
+    </nav>
+    <div class="container-fluid homepage">
+      <div class="container heading-box" data-aos="zoom-in-up" data-aos-duration="2000">
+        <!-- <h1 class="heading">A's Kitchen</h1> -->
+        <img src="img/logo-brand.png" alt="" class="heading">
+        <p>Premium Dish With A Secret Family Recipe</p>
+        <button class="btn btn-outline-light home-btn btn-lg" type="button" role="button" onclick="location.href='#about';">Learn More</button>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="about">
+    <div class="container-fluid aboutpage">
+      <h1 data-aos="fade-up">Welcome to A's Kitchen</h1>
+      <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tortor neque, blandit et lobortis sed, tincidunt non sem. Suspendisse suscipit tortor vitae pellentesque egestas. Praesent aliquam id eros sed venenatis. Nulla
+        a lacinia massa.
+        Curabitur id dapibus urna. Maecenas elementum dictum leo vitae scelerisque. Praesent egestas dolor eget egestas imperdiet. Maecenas pulvinar rhoncus ultrices. Duis eu blandit augue, nec ullamcorper leo. Pellentesque vel ante a purus
+        porttitor
+        rhoncus. Proin sollicitudin enim sit amet justo gravida porttitor et ut nisi. Cras consectetur porttitor turpis vitae auctor. Nam fringilla ut justo id efficitur. Ut ut ultrices risus. Morbi nisl magna, tempus vitae leo non, convallis
+        pharetra nibh. Nunc sed mi semper, tempus elit et, viverra orci.
+      </p>
+    </div>
+  </section>
+
+
+
+  <section id="quality">
+    <div class="container-fluid qualitypage">
+      <div class="row">
+        <div class="col-lg-6 qua-box" data-aos="zoom-in" data-aos-duration="1000">
+          <i class="fas fa-check fa-4x"></i>
+          <h2 class="caption">Premium Ingredients</h2>
+        </div>
+        <div class="col-lg-6 qua-box" data-aos="zoom-in" data-aos-duration="1000">
+          <i class="fas fa-receipt fa-4x"></i>
+          <h2 class="caption">Secret Family Recipe</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="menu">
+    <div class="container-fluid menupage">
+      <div class="menu-heading" data-aos="fade-up">
+        <h1 style="margin-bottom: 20px;">Our Menu</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
+      </div>
+      <div class="row">
+        <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-01" onclick="expandIcon(document.getElementById('expand-icon-01'))">
+            <img class="menu-img" src="img/menu-img-01.jpg" alt="">
+            <h2>Mie Ayam</h2>
+            <div class="menu-desc collapse" id="collapse-menu-01">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
+            </div>
+            <p>IDR 25k</p>
+            <i class="fas fa-chevron-down" id="expand-icon-01"></i>
+          </div>
+        </div>
+        <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-02" onclick="expandIcon(document.getElementById('expand-icon-02'))">
+            <img class="menu-img" src="img/menu-img-02.jpg" alt="">
+            <h2>Sayur Lodeh</h2>
+            <div class="menu-desc collapse" id="collapse-menu-02">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
+            </div>
+            <p>IDR 50k</p>
+            <i class="fas fa-chevron-down" id="expand-icon-02"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-03" onclick="expandIcon(document.getElementById('expand-icon-03'))">
+            <img class="menu-img" src="img/menu-img-03.jpg" alt="">
+            <h2>Sop Udang</h2>
+            <div class="menu-desc collapse" id="collapse-menu-03">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
+            </div>
+            <p>IDR 75k</p>
+            <i class="fas fa-chevron-down" id="expand-icon-03"></i>
+          </div>
+        </div>
+        <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-04" onclick="expandIcon(document.getElementById('expand-icon-04'))">
+            <img class="menu-img" src="img/menu-img-04.jpg" alt="">
+            <h2>Roti Bakar</h2>
+            <div class="menu-desc collapse" id="collapse-menu-04">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
+            </div>
+            <p>IDR 50k</p>
+            <i class="fas fa-chevron-down" id="expand-icon-04"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial">
+    <div class="container-fluid testipage">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-block w-100 testi-box">
+              <h2 class="testi-text">"Best food in town banget ini sumpah gaboong. Kaya rasanya tuh gitudeh pokoknya bikin ketagihan banget"</h2>
+
+              <em class="testi-text">Adilah, Jakarta</em>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100 testi-box">
+              <h2 class="testi-text">"Ada yang punya contact chef nya gak ya? Mau saya jadikan Head Chef di restoran saya."</h2>
+
+              <em class="testi-text">Ayu, Bandung</em>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse ms-auto me-auto" id="navbarToggler">
-            <ul class="navbar-nav ms-auto me-auto">
-              <li class="nav-item">
-                <a href="#home" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#menu" class="nav-link">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a href="#cta" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-
-
-
-        </div>
-
-      </nav>
-      <div class="container-fluid homepage">
-        <div class="container heading-box" data-aos="zoom-in" data-aos-duration="2000">
-          <!-- <h1 class="heading">A's Kitchen</h1> -->
-          <img src="img/logo-brand.png" alt="" class="heading">
-          <p>Premium Dish With A Secret Family Recipe</p>
-          <button class="btn btn-outline-light home-btn btn-lg" type="button" role="button" onclick="location.href='#about';">Learn More</button>
-        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+    </div>
+  </section>
 
-    </section>
+  <section id="cta">
+    <div class="container-fluid ctapage">
+      <h1 class="mb-5" data-aos="fade-up">Contact Us</h1>
+      <h2 class="mb-5" data-aos="fade-up">Visit Our Instagram And Make Your Order</h2>
+      <button class="btn btn-outline-light home-btn btn-lg" type="button" role="button" onclick="location.href='https://www.instagram.com/by.akitchen/';" data-aos="fade-up">Take Me There</button>
+    </div>
+  </section>
 
-    <section id="about">
-      <div class="container-fluid aboutpage">
-        <h1 data-aos="fade-up">Welcome to A's Kitchen</h1>
-        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tortor neque, blandit et lobortis sed, tincidunt non sem. Suspendisse suscipit tortor vitae pellentesque egestas. Praesent aliquam id eros sed venenatis. Nulla
-          a lacinia massa.
-          Curabitur id dapibus urna. Maecenas elementum dictum leo vitae scelerisque. Praesent egestas dolor eget egestas imperdiet. Maecenas pulvinar rhoncus ultrices. Duis eu blandit augue, nec ullamcorper leo. Pellentesque vel ante a purus
-          porttitor
-          rhoncus. Proin sollicitudin enim sit amet justo gravida porttitor et ut nisi. Cras consectetur porttitor turpis vitae auctor. Nam fringilla ut justo id efficitur. Ut ut ultrices risus. Morbi nisl magna, tempus vitae leo non, convallis
-          pharetra nibh. Nunc sed mi semper, tempus elit et, viverra orci.
-        </p>
-      </div>
-    </section>
+  <footer id="footer">
+    <div class="social-icon">
+      <a href="https://wa.me/628118589147"><i class="fab fa-whatsapp fa-2x wa-logo"></i></a>
+      <a href="https://www.instagram.com/by.akitchen/"><i class="fab fa-instagram fa-2x ig-logo"></i></a>
 
+    </div>
+    <ul class="list-inline">
+      <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#home';">Home</button>
+      <p class="list-inline-item"> |</p>
+      <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#about';">About</button>
+      <p class="list-inline-item"> |</p>
+      <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#menu';">Menu</button>
+      <p class="list-inline-item"> |</p>
+      <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#cta';">Contact</button>
+    </ul>
 
+    <p style="margin-bottom:10px;">A Kitchen © 2021</p>
+    <p style="color:grey;font-size: 0.75rem;">Website Designed and Developed by digiboys.id</p>
 
-    <section id="quality">
-      <div class="container-fluid qualitypage">
-        <div class="row">
-          <div class="col-lg-6 qua-box" data-aos="fade-right">
-            <i class="fas fa-check fa-4x"></i>
-            <h2 class="caption">Premium Ingredients</h2>
-          </div>
-          <div class="col-lg-6 qua-box" data-aos="fade-left">
-            <i class="fas fa-receipt fa-4x"></i>
-            <h2 class="caption">Secret Family Recipe</h2>
-          </div>
-        </div>
-      </div>
-    </section>
-
+  </footer>
 
 
-    <section id="menu">
-      <div class="container-fluid menupage">
-        <div class="menu-heading" data-aos="fade-up">
-          <h1 style="margin-bottom: 20px;">Our Menu</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-        </div>
-        <div class="row">
-          <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
-            <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-01" onclick="expandIcon(document.getElementById('expand-icon-01'))">
-              <img class="menu-img" src="img/menu-img-01.jpg" alt="">
-              <h2>Mie Ayam</h2>
-              <div class="menu-desc collapse" id="collapse-menu-01">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-              </div>
-              <p>IDR 25k</p>
-              <i class="fas fa-chevron-down" id="expand-icon-01"></i>
-            </div>
-          </div>
-          <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
-            <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-02" onclick="expandIcon(document.getElementById('expand-icon-02'))">
-              <img class="menu-img" src="img/menu-img-02.jpg" alt="">
-              <h2>Sayur Lodeh</h2>
-              <div class="menu-desc collapse" id="collapse-menu-02">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-              </div>
-              <p>IDR 50k</p>
-              <i class="fas fa-chevron-down" id="expand-icon-02"></i>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
-            <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-03" onclick="expandIcon(document.getElementById('expand-icon-03'))">
-              <img class="menu-img" src="img/menu-img-03.jpg" alt="">
-              <h2>Sop Udang</h2>
-              <div class="menu-desc collapse" id="collapse-menu-03">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-              </div>
-              <p>IDR 75k</p>
-              <i class="fas fa-chevron-down" id="expand-icon-03"></i>
-            </div>
-          </div>
-          <div class="menu-wrapper col-lg-6" data-aos="zoom-in-up" data-aos-duration="1000">
-            <div class="container-fluid menu-box" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-menu-04" onclick="expandIcon(document.getElementById('expand-icon-04'))">
-              <img class="menu-img" src="img/menu-img-04.jpg" alt="">
-              <h2>Roti Bakar</h2>
-              <div class="menu-desc collapse" id="collapse-menu-04">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-              </div>
-              <p>IDR 50k</p>
-              <i class="fas fa-chevron-down" id="expand-icon-04"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="testimonial">
-      <div class="container-fluid testipage" >
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="d-block w-100 testi-box">
-                <h2 class="testi-text">"Best food in town banget ini sumpah gaboong. Kaya rasanya tuh gitudeh pokoknya bikin ketagihan banget"</h2>
-
-                <em class="testi-text">Adilah, Jakarta</em>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-block w-100 testi-box">
-                <h2 class="testi-text">"Ada yang punya contact chef nya gak ya? Mau saya jadikan Head Chef di restoran saya."</h2>
-
-                <em class="testi-text">Ayu, Bandung</em>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <section id="cta">
-      <div class="container-fluid ctapage">
-        <h1 class="mb-5" data-aos="fade-up">Contact Us</h1>
-        <h2 class="mb-5" data-aos="fade-up">Visit Our Instagram And Make Your Order</h2>
-        <button class="btn btn-outline-light home-btn btn-lg" type="button" role="button" onclick="location.href='https://www.instagram.com/by.akitchen/';" data-aos="fade-up">Take Me There</button>
-      </div>
-    </section>
-
-    <footer id="footer">
-      <div class="social-icon">
-        <a href="https://wa.me/628118589147"><i class="fab fa-whatsapp fa-2x wa-logo"></i></a>
-        <a href="https://www.instagram.com/by.akitchen/"><i class="fab fa-instagram fa-2x ig-logo"></i></a>
-
-      </div>
-      <ul class="list-inline">
-        <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#home';">Home</button>
-        <p class="list-inline-item"> |</p>
-        <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#about';">About</button>
-        <p class="list-inline-item"> |</p>
-        <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#menu';">Menu</button>
-        <p class="list-inline-item"> |</p>
-        <button class="btn btn-md btn-outline-light footer-btn" type="button" role="button" onclick="location.href='#cta';">Contact</button>
-      </ul>
-
-      <p style="margin-bottom:10px;">A Kitchen © 2021</p>
-      <p style="color:grey;font-size: 0.75rem;">Website Designed and Developed by digiboys.id</p>
-
-    </footer>
-
-
-  </div>
 
   <script>
     function expandIcon(x) {

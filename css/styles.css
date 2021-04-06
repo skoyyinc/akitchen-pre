@@ -1,8 +1,6 @@
 body{
   font-family: 'Montserrat', serif;
-  position: relative;
   background-color: #f8f4e1;
-  overflow-x: hidden;
 
 
 }
@@ -20,39 +18,21 @@ p {
   color: grey;
 }
 
-hr{
 
-  border: 0;
-  height: 1px;
-  width: 10%;
-  position: relative;
-  margin: 30px auto;
-
-}
 
 #home {
-  overflow-y: scroll;
   background-image:url(../img/bg-1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
-#about {
-  height: 100%;
-  overflow-y: scroll;
-}
-
-#menu {
-  height: 100%;
-  overflow-y: scroll;
-}
 
 
 
 #main-navbar {
   background: none;
-  padding:0 5%;
+  padding:0;
   text-align: center;
 }
 /* #e7e7de */
@@ -67,7 +47,6 @@ hr{
 }
 
 .homepage {
-  position: relative;
   text-align: center;
   padding: 7% 15% 20% 15%;
 }
@@ -86,14 +65,13 @@ hr{
 
 .heading-box {
   background-color: transparent;
-  width: 80%;
   padding-top: 7rem;
   padding-bottom: 7rem;
 
 }
 
 .heading {
-  width: 15rem;
+  width: 40%;
   margin-bottom: 30px;
 }
 
@@ -108,7 +86,7 @@ hr{
 
 .aboutpage {
   padding: 6% 20% 8% 20%;
-  text-align: center;
+  text-align: left;
 
 }
 
