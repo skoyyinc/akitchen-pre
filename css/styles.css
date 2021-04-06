@@ -2,6 +2,7 @@ body{
   font-family: 'Montserrat', serif;
   position: relative;
   background-color: #f8f4e1;
+  overflow-x: hidden;
 
 
 }
@@ -117,7 +118,7 @@ hr{
 }
 
 .qualitypage {
-  padding: 5% 15% 5% 0;
+  padding: 5% 15% 5% 10%;
   text-align: center;
   background-color: #e7e7de;
   border-style: solid;
@@ -131,7 +132,8 @@ hr{
 }
 
 .qua-box {
-  padding-left: 15%;
+  padding-left:5%;
+  padding-right: 5%;
 }
 
 .fa-check,.fa-receipt {
