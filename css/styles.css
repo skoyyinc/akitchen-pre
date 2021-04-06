@@ -118,17 +118,13 @@ hr{
 }
 
 .qualitypage {
-  padding: 5% 15% 5% 10%;
+  padding: 5% 15% 5% 15%;
   text-align: center;
   background-color: #e7e7de;
   border-style: solid;
   border-color: transparent;
   border-top-left-radius: 120px;
   border-bottom-left-radius: 120px;
-  position: relative;
-  left: 2%;
-  overflow-x: hidden;
-  width: 96%;
 }
 
 .qua-box {
@@ -181,17 +177,13 @@ hr{
 }
 
 .testipage {
-  padding: 5% 10% 5% 15%;
+  padding: 5% 15% 5% 15%;
   text-align: left;
   background-color: #e7e7de;
   border-style: solid;
   border-color: transparent;
   border-top-right-radius: 120px;
   border-bottom-right-radius: 120px;
-  position: relative;
-  right: 2%;
-  overflow-x: hidden;
-  width: 96%;
 }
 
 .testi-box {
