@@ -32,23 +32,24 @@
 
   <section id="home">
     <nav id="main-navbar" class="navbar navbar-expand-md navbar-light">
-      <button type="button" class="navbar-toggler ms-auto me-auto" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation">
-        <span><i class="fas fa-angle-double-down fa-2x"></i></span>
+      <a class="navbar-brand me-auto mt-auto mb-auto" href="#home"><img src="img/logo-brand.png" class="logo-brand" /></a>
+      <button type="button" class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></i></span>
       </button>
       <div class="container-fluid">
-        <div class="collapse navbar-collapse ms-auto me-auto" id="navbarToggler">
-          <ul class="navbar-nav ms-auto me-auto">
+        <div class="collapse navbar-collapse ms-auto" id="navbarToggler">
+          <ul class="navbar-nav mt-auto mb-auto ms-auto">
             <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
+              <a href="#home" class="nav-link expand">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
+              <a href="#menu" class="nav-link expand">Menu</a>
             </li>
             <li class="nav-item">
-              <a href="#menu" class="nav-link">Menu</a>
+              <a href="#about" class="nav-link expand">About</a>
             </li>
             <li class="nav-item">
-              <a href="#cta" class="nav-link">Contact</a>
+              <a href="#cta" class="nav-link expand">Contact</a>
             </li>
           </ul>
         </div>
@@ -61,29 +62,13 @@
     <div class="container-fluid homepage">
       <div class="container heading-box" data-aos="zoom-in-up" data-aos-duration="2000">
         <!-- <h1 class="heading">A's Kitchen</h1> -->
-        <img src="img/logo-brand.png" alt="" class="heading">
-        <p>Premium Dish With A Secret Family Recipe</p>
-        <button class="btn btn-outline-light home-btn btn-lg" type="button" role="button" onclick="location.href='#about';">Learn More</button>
+        <h1>The "Hidden Gem" You've Been Looking For</h1>
+        <button class="btn btn-outline-light home-btn btn-lg" type="button" role="button" onclick="location.href='#menu';">See Menu</button>
       </div>
+      <img src="img/bg-3.png" class="resp-bg-img" alt="">
     </div>
 
   </section>
-
-  <section id="about">
-    <div class="container-fluid aboutpage">
-      <h1 data-aos="fade-up">Welcome to A's Kitchen</h1>
-      <hr>
-      <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tortor neque, blandit et lobortis sed, tincidunt non sem. Suspendisse suscipit tortor vitae pellentesque egestas. Praesent aliquam id eros sed venenatis. Nulla
-        a lacinia massa.
-        Curabitur id dapibus urna. Maecenas elementum dictum leo vitae scelerisque. Praesent egestas dolor eget egestas imperdiet. Maecenas pulvinar rhoncus ultrices. Duis eu blandit augue, nec ullamcorper leo. Pellentesque vel ante a purus
-        porttitor
-        rhoncus. Proin sollicitudin enim sit amet justo gravida porttitor et ut nisi. Cras consectetur porttitor turpis vitae auctor. Nam fringilla ut justo id efficitur. Ut ut ultrices risus. Morbi nisl magna, tempus vitae leo non, convallis
-        pharetra nibh. Nunc sed mi semper, tempus elit et, viverra orci.
-      </p>
-    </div>
-  </section>
-
-
 
   <section id="quality">
     <div class="container-fluid qualitypage">
@@ -102,20 +87,26 @@
 
 
 
+
+
+
+
+
+
   <section id="menu">
     <div class="container-fluid menupage">
       <div class="menu-heading" data-aos="fade-up">
         <h1>Our Menu</h1>
         <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
       </div>
       <div id="product-slider">
         <div class="slider" style="">
-          <img data-id="1" data-src="img/menu-03.jpeg" src="img/menu-03.jpeg">
-          <img data-id="2" data-src="img/menu-02.jpeg" src="img/menu-02.jpeg">
-          <img data-id="3" data-src="img/slider-02.jpeg" src="img/slider-02.jpeg">
+          <img data-id="1" data-src="img/drink-slider01.jpeg" src="img/drink-slider01.jpeg">
+          <img data-id="2" data-src="img/slider-02.jpeg" src="img/slider-02.jpeg">
+          <img data-id="3" data-src="img/drink-slider03.gif" src="img/drink-slider03.gif">
           <img data-id="4" data-src="img/slider-03.jpeg" src="img/slider-03.jpeg">
-          <img data-id="5" data-src="img/menu-02.jpeg" src="img/menu-02.jpeg">
+          <img data-id="5" data-src="img/slider-04.jpeg" src="img/slider-04.jpeg">
+          <img data-id="6" data-src="img/drink-slider02.jpeg" src="img/drink-slider02.jpeg">
         </div>
       </div>
       <nav>
@@ -131,14 +122,14 @@
               <div class="container-fluid menu-box">
                 <div class="row">
                   <div class="col-lg-3">
-                    <img class="menu-img" src="img/menu-01.jpeg" alt="">
+                    <img class="menu-img rounded-circle" src="img/menu-01.jpeg" alt="">
                   </div>
                   <div class="col-lg-9 menu-title">
-                    <h2 class="menu-name">Mentai Rice</h2>
+                    <h2 class="menu-name">Kani Mentai Rice</h2>
                     <div class="menu-desc">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
                     </div>
-                    <p class="menu-price">IDR 25k</p>
+                    <p class="menu-price">IDR 32K</p>
                   </div>
                 </div>
               </div>
@@ -149,14 +140,14 @@
               <div class="container-fluid menu-box">
                 <div class="row">
                   <div class="col-lg-3">
-                    <img class="menu-img" src="img/menu-02.jpeg" alt="">
+                    <img class="menu-img rounded-circle" src="img/menu-02.jpeg" alt="">
                   </div>
                   <div class="col-lg-9 menu-title">
-                    <h2 class="menu-name">Salmon Mentai</h2>
+                    <h2 class="menu-name">Beef Mentai Rice</h2>
                     <div class="menu-desc">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
                     </div>
-                    <p class="menu-price">IDR 25k</p>
+                    <p class="menu-price">IDR 35K</p>
                   </div>
                 </div>
               </div>
@@ -167,77 +158,89 @@
               <div class="container-fluid menu-box">
                 <div class="row">
                   <div class="col-lg-3">
-                    <img class="menu-img" src="img/menu-03.jpeg" alt="">
+                    <img class="menu-img rounded-circle" src="img/menu-03.jpeg" alt="">
                   </div>
                   <div class="col-lg-9 menu-title">
-                    <h2 class="menu-name">Fried Rice</h2>
+                    <h2 class="menu-name">Nasi Goreng Daun Jeruk</h2>
                     <div class="menu-desc">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
                     </div>
-                    <p class="menu-price">IDR 25k</p>
+                    <p class="menu-price">IDR 25K</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="menu-wrapper" data-aos="zoom-in-up" data-aos-duration="1000">
+              <div class="container-fluid menu-box">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <img class="menu-img rounded-circle" src="img/menu-04.jpeg" alt="">
+                  </div>
+                  <div class="col-lg-9 menu-title">
+                    <h2 class="menu-name">Dimsum Mentai</h2>
+                    <div class="menu-desc">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
+                    </div>
+                    <p class="menu-price">IDR 35K</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div class="tab-pane fade" id="nav-bev" role="tabpanel" aria-labelledby="nav-bev-tab">
-          <div class="row">
-            <div class="menu-wrapper" data-aos="zoom-in-up" data-aos-duration="1000">
-              <div class="container-fluid menu-box">
-                <div class="row">
-                  <div class="col-lg-3">
-                    <img class="menu-img" src="img/menu-01.jpeg" alt="">
-                  </div>
-                  <div class="col-lg-9 menu-title">
-                    <h2 class="menu-name">Mentai Rice</h2>
-                    <div class="menu-desc">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-                    </div>
-                    <p class="menu-price">IDR 25k</p>
-                  </div>
-                </div>
+          <img src="img/drink.jpeg" alt="" class="bev-img">
+          <div class="bev-menu">
+              <div class="item" >
+                <h4>Thai Tea</h4>
+                <span></span>
+                <span>15K</span>
+                <p>Drinks description here</p>
+              </div>
+              <div class="item" >
+                <h4>Sour Mix</h4>
+                <span></span>
+                <span>15K</span>
+                <p>Drinks description here</p>
+              </div>
+              <div class="item" >
+                <h4>Cheesecake</h4>
+                <span></span>
+                <span>15K</span>
+                <p>Drinks description here</p>
+              </div>
+              <div class="item" >
+                <h4>Butterfly Pea Flower</h4>
+                <span></span>
+                <span>15K</span>
+                <p>Drinks description here</p>
+              </div>
+              <div class="item" >
+                <h4>Reuben</h4>
+                <span></span>
+                <span>15K</span>
+                <p>Drinks description here</p>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="menu-wrapper" data-aos="zoom-in-up" data-aos-duration="1000">
-              <div class="container-fluid menu-box">
-                <div class="row">
-                  <div class="col-lg-3">
-                    <img class="menu-img" src="img/menu-02.jpeg" alt="">
-                  </div>
-                  <div class="col-lg-9 menu-title">
-                    <h2 class="menu-name">Salmon Mentai</h2>
-                    <div class="menu-desc">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-                    </div>
-                    <p class="menu-price">IDR 25k</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="menu-wrapper" data-aos="zoom-in-up" data-aos-duration="1000">
-              <div class="container-fluid menu-box">
-                <div class="row">
-                  <div class="col-lg-3">
-                    <img class="menu-img" src="img/menu-03.jpeg" alt="">
-                  </div>
-                  <div class="col-lg-9 menu-title">
-                    <h2 class="menu-name">Fried Rice</h2>
-                    <div class="menu-desc">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel enim elementum, tincidunt odio a, congue diam. Cras eget efficitur.</p>
-                    </div>
-                    <p class="menu-price">IDR 25k</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
+
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container-fluid aboutpage">
+      <h1>About Us</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tortor neque, blandit et lobortis sed, tincidunt non sem. Suspendisse suscipit tortor vitae pellentesque egestas. Praesent aliquam id eros sed venenatis. Nulla
+        a lacinia massa.
+        Curabitur id dapibus urna. Maecenas elementum dictum leo vitae scelerisque. Praesent egestas dolor eget egestas imperdiet. Maecenas pulvinar rhoncus ultrices. Duis eu blandit augue, nec ullamcorper leo. Pellentesque vel ante a purus.
+      </p>
+
     </div>
   </section>
 
@@ -275,9 +278,9 @@
   <section id="cta">
     <div class="container-fluid ctapage">
       <div class="container-fluid cta-box">
-        <h1 class="mb-5 mt-5" data-aos="fade-up">Contact Us</h1>
-        <h2 class="mb-5 mt-5" data-aos="fade-up">Visit Our Instagram And Make Your Order</h2>
-        <button class="btn btn-light cta-btn btn-lg mb-5" type="button" role="button" onclick="location.href='https://www.instagram.com/by.akitchen/';" data-aos="fade-up">Take Me There</button>
+        <h1 class="mb-5 mt-5">Contact Us</h1>
+        <h2 class="mb-5 mt-5">Visit Our Instagram And Make Your Order</h2>
+        <button class="btn btn-light cta-btn btn-lg mb-5" type="button" role="button" onclick="location.href='https://www.instagram.com/by.akitchen/';">Take Me There</button>
       </div>
     </div>
   </section>

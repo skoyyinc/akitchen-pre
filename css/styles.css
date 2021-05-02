@@ -17,7 +17,7 @@ h2 {
 
 p {
   color: grey;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 hr {
@@ -32,7 +32,7 @@ hr {
 
 #home {
   padding-top: 0;
-  background-image:url(../img/bg-1.jpg);
+  background-image:url(../img/bg-2.JPEG);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -43,24 +43,48 @@ hr {
 
 #main-navbar {
   background: none;
-  padding:0;
-  text-align: center;
+  padding:2% 8%;
+  text-align: left;
   margin-top:0;
 }
 /* #e7e7de */
-.navbar-brand {
-  height: 3rem;
+
+
+.logo-brand {
+  width: 85%;
 }
 
 .nav-link {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-left: 5px;
   margin-right: 5px;
+
 }
+
+.expand{
+  position:relative;
+  text-decoration:none;
+  display:inline-block;
+}
+.expand:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px #000;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin:100% 50%
+}
+.expand:hover:after {
+  transform: scaleX(1);
+  transform-origin:0 50%;
+}
+
+
 
 .homepage {
   text-align: center;
-  padding: 7% 15% 20% 15%;
+  padding: 0 8% 20% 8%;
+  position: relative;
 }
 
 .home-btn {
@@ -78,8 +102,18 @@ hr {
 .heading-box {
   background-color: transparent;
   padding-top: 7rem;
-  padding-bottom: 7rem;
 
+  text-align: left;
+  margin-left: 0;
+  width:50%;
+}
+
+.heading-box h1{
+  font-size: 3.25rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-bottom: 36px;
+  color:#705737;
 }
 
 .heading {
@@ -87,25 +121,20 @@ hr {
   margin-bottom: 30px;
 }
 
-.heading-box p{
-  font-family: "Noto Serif JP", serif;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #705737;
-
-
+.resp-bg-img {
+  display: none;
 }
+
+
 
 .aboutpage {
   padding: 5% 10% 8% 10%;
-  text-align: left;
+  text-align: center;
 
 }
 
 .aboutpage h1{
   text-align: center;
-  margin-bottom: .5rem;
-  font-size: 2.5rem;
 }
 
 .qualitypage {
@@ -200,19 +229,22 @@ hr {
 .menu-title {
   padding: 0 2%;
   text-align: left;
+  position: relative;
 
 }
 
 .menu-name {
   padding-top: 5%;
-  margin-bottom: 20px;
   font-size: 2.5rem;
 }
 
 .menu-price {
   font-size: 1.5rem;
   text-align: right;
-  margin-top: 10px;
+
+  position: absolute;
+  right: 16px;
+  bottom: 4px;
 }
 
 .menu-img {
@@ -221,11 +253,65 @@ hr {
   width: 12.5rem;
   border-style: solid;
   border-color: transparent;
-  border-radius: 100%;
 
 
 
 
+}
+
+.bev-img {
+  width: 45%;
+  margin: 5% 0;
+  border-radius: 40px;
+  margin-bottom: 10%;
+}
+
+.bev-menu {
+  text-align: left;
+}
+
+.item {
+  position:relative;
+  overflow:hidden;
+  margin-bottom:20px;
+}
+.item h4, .item p {
+  display:block;
+  clear:both;
+  color:#533834;
+}
+.item p {
+  clear:both;
+  color:#938372;
+  margin-left:5px;
+}
+.item span:first-of-type {
+  background-image:linear-gradient(to right,rgba(56,47,47,.5) 33%,rgba(0,0,0,0) 0%);
+  background-position:bottom;
+  background-size:3px 1px;
+  background-repeat:repeat-x;
+  height:1px;
+  width:100%;
+  position:absolute;
+  top:22px;
+}
+
+.item span:nth-of-type(2n) {
+  position:absolute;
+  font-size:22px;
+  font-weight:400;
+  right:0;
+  padding-left:8px;
+  z-index:0;
+}
+.item h4 {
+  display:inline-block;
+  padding-right:8px;
+  font-size:1.25rem;
+  max-width:80%;
+  text-transform:capitalize;
+  margin-bottom:4px;
+  position:relative;
 }
 
 .testipage {

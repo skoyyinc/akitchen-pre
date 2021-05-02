@@ -3,19 +3,28 @@
     font-size: 1.5rem;
   }
 
-  .homepage p {
+  .homepage {
+    padding-bottom: 0;
+  }
+
+
+  .heading-box{
+    padding: 15% 0;
+
+    text-align: left;
+  }
+
+  .heading-box h1{
     font-size: 1.5rem;
+    margin-bottom: 18px;
+  }
+
+  .aboutpage {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
 
-  .aboutpage h1 {
-    font-size:2rem;
-    text-align: center;
-  }
-
-  .heading {
-    width: 80%;
-  }
 
   .aboutpage p {
     text-align: justify;
@@ -33,6 +42,11 @@
 
   .qua-box {
     padding: 0;
+  }
+
+  .menu-wrapper {
+    padding-left: 0;
+    padding-right:0;
   }
 
   .testipage {
@@ -86,6 +100,13 @@
 
   .menu-price {
     text-align: center;
+    position: static;
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+
+  .menu-name {
+    font-size: 2.5rem;
   }
 
 
@@ -108,21 +129,62 @@
 
 @media screen and (max-width:700px) {
 
+  #home {
+    background-image:none;
+    background-color: #f8f4e1;
+
+  }
+
+  .homepage {
+    padding-bottom: 10%;
+  }
+
+
+
+  .resp-bg-img {
+    display:block;
+    width: 20em;
+    position: absolute;
+    right:10%;
+    bottom: -100px;
+    z-index: 0;
+  }
+
+  #main-navbar {
+    padding: 10% 0;
+    padding-top:5%;
+  }
+
   p {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
-  .homepage p {
-    font-size: .8rem;
+  .aboutpage {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
-  .aboutpage h1 {
-    font-size: 1.2rem;
-    text-align: center;
+
+  .heading-box {
+    padding: 40% 0;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+    padding-top:0;
+
+
+
   }
 
-  .heading {
-    width: 80%;
+  .heading-box h1{
+    font-size: 2rem;
+    margin-bottom: 5px;
+
+  }
+
+  .navbar-brand {
+    width:50%;
   }
 
   .aboutpage p {
@@ -134,13 +196,24 @@
   }
 
   .qualitypage {
-    position: static;
+    position: relative;
     border-radius: 0;
     padding: 5% 15%;
+    z-index: 1
+
   }
 
   .qua-box {
     padding: 0;
+  }
+
+  .menu-wrapper {
+    padding-left: 0;
+    padding-right:0;
+  }
+
+  .menu-box{
+    width: 100%;
   }
 
   .testipage {
@@ -212,16 +285,33 @@
 
   .menu-img {
     width: 100%;
-    height: 14rem;
+    height: 17rem;
     border-radius: 100%;
   }
 
   .menu-price {
     text-align: center;
+    position: static;
+    font-size: 1.25rem;
+    margin-top: 20px;
   }
 
   .tab-btn {
     font-size: 1rem;
+  }
+
+  .menu-name {
+    font-size: 1.3rem;
+
+
+  }
+
+  .bev-img {
+    width: 75%;
+  }
+
+  .bev-menu p{
+    font-size: .9rem;
   }
 
 }
